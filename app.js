@@ -10,7 +10,9 @@ action.addEventListener('click', () => {
 
   if (Password.value === 'password') {
     action.dataset.content = 'Welcome Back';
+    root.style.setProperty('--color', 'lightseagreen');
   } else {
     action.dataset.content = 'Invalid Password';
+    root.style.setProperty('--color', 'tomato');
   }
 });

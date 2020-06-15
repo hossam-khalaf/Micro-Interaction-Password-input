@@ -1,6 +1,7 @@
 :root {
   --scale: scaleX(0);
   --opacity: 0;
+  --color: #09141f;
 }
 
 * {
@@ -39,7 +40,7 @@ button:focus {
 
 .container {
   position: relative;
-  border: 2px solid rgb(9, 20, 31);
+  border: 2px solid var(--color);
   border-radius: 10px;
   padding-left: 10px;
 }
@@ -62,7 +63,7 @@ input {
 
 .action {
   display: inline-block;
-  background-color: rgb(9, 20, 31);
+  background-color: var(--color);
   padding: 20px;
   width: 100px;
   color: #fff;
