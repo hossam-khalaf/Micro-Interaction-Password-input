@@ -94,7 +94,7 @@ input {
   height: 100%;
   transform: var(--scale);
   opacity: var(--opacity;)
-  transition: opacity 0.75s;
+  transition: opacity 1s;
 }
 
 .hide {
