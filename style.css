@@ -12,6 +12,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -21,13 +22,20 @@ body {
   background: -webkit-linear-gradient(
     to top,
     #e74c3c,
-    #000000
+    #2e2d2d
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
     #e74c3c,
-    #000000
+    #2e2d2d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: var(--color);
+  margin-bottom: 7rem;
+  font-family: cursive;
 }
 
 button,
